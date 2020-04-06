@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Own_your_pet</title>
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #FFE4C4;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #696969;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #AFEEEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #FFF;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  background-color: inherit;
+  color: white;
+  padding: 16px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #AFEEEE;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #FFFFE0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+p.one{
+	border-style: solid;
+	border-color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Own your Pet</h1>
+</div>
+
+<div class="topnav">
+ <div class="dropdown">
+  <button class="dropbtn">Cat</button>
+  <div class="dropdown-content">
+    <a href="#">Persian Cat</a>
+    <a href="#">British Shorthair</a>
+    <a href="#">Siamese Cat</a>
+  </div>
+</div>
+  <div class="dropdown">
+  <button class="dropbtn">Fish</button>
+  <div class="dropdown-content">
+    <a href="#">Golden Fish</a>
+    <a href="#">Star Fish</a>
+    <a href="#">Queen Fish</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Dog</button>
+  <div class="dropdown-content">
+    <a href="#">Golden Retriever</a>
+    <a href="#">Labrador Retriever</a>
+    <a href="#">Siberian Husky</a>
+  </div>
+</div>
+ 
+</div>
+
+
+<p class="one">This website will help you find your pet as you desire. Please select the Type of Pet you prefer on the Navigation bar.</p>
+
+</body>
+</html>
